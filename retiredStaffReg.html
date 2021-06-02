@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            recordStaffPatientCat 
+        </title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="retiredStaffReg.css"> 
+            <script type="text/javascript" src="navBar.js"></script>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!-- Font Awesome -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+            <!-- Google Fonts -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+            <!-- Bootstrap core CSS -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+            <!-- Material Design Bootstrap -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+            <!-- JQuery -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Bootstrap tooltips -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+            <!-- Bootstrap core JavaScript -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+            <!-- MDB core JavaScript -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    </head>
+    <!-- body -->
+    <body>
+        <!-- sidebar -->
+        <div class="sidebar">
+            <header style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><i class="fa fa-user" aria-hidden="true"></i>My Profile</header>
+            <ul>
+                <li><a href="regNewPatient.html"><i class="fa fa-plus" aria-hidden="true"></i>Register New Patient</a></li>
+                <li><a href="navBar.html"><i class="fa fa-pencil-square" aria-hidden="true"></i>Create Appointment</a></li>
+                <li><a class="active" href="#"><i class="fa fa-eye" aria-hidden="true"></i>View Appointments</a></li>
+                <li><a href="#"><i class="fa fa-address-book" aria-hidden="true"></i>Enrolment Consl.</a></li>
+                <div class="left">
+                    <a  style="color:white" href=""><i class="fa fa-address-book" aria-hidden="true"></i>Sign Out</a>
+                </div>
+            </ul>
+        </div>
+
+        <!-- navbar -->
+        <div class="navbar">
+            <nav>
+                <label class="logo">UNILAG HMS</label>
+                <label class="logo1"><img src="html/unilag.png"></label>
+            </nav>
+        </div>
+
+        <!-- buttonbar top-->
+        <div class="buttonbar">
+            <div class="button1">
+                <button><i class="fa fa-arrow-left" aria-hidden="true"></i>Go Home</button>
+            </div>
+        </div>
+
+        <!-- content -->
+        <div class="content">
+            <p>Register New Patient</p>
+        </div>
+
+        <!-- content1 -->
+        <div class="content1">
+                <a href=""><img src="html/q1.png" class="pimage"></p></a>
+                <div class="type">
+                    <label><input type="text" value="" Placeholder="Hospital No."></label>
+                    <label><input type="text" value="" placeholder="NHIS No."></label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected><strong>H.M.O</strong></option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+        </div>
+
+        <!-- content2 -->
+        <div class="content2">
+            <div class="type">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected><strong>Patient Category</strong></option>
+                    <option value="1">Staff</option>
+                    <option value="2">Student</option>
+                    <option value="3">Non-Staff</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- content 3 -->
+        <div class="content3">
+            <div class="type">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected><strong>Title</strong></option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <label><input type="text" value="" Placeholder="Surname"></label>
+                <label><input type="text" value="" placeholder="Other Names"></label>
+            </div>
+    </div>
+
+    <!-- content 4 -->
+    <div class="content4">
+        <div class="type">
+            <label><input class="datepicker" data-date-format="mm/dd/yyyy" type="date"></label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected><strong>Genger</strong></option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Three</option>
+            </select>            
+            <select class="form-select" aria-label="Default select example">
+                <option selected><strong>Marital Status</strong></option>
+                <option value="1">Single</option>
+                <option value="2">Married</option>
+                <option value="2">Divorced</option>
+                <option value="3">Widow/Widower</option>
+            </select>
+        </div>
+    </div>    
+
+    <!-- content 5 -->
+    <div class="content5">
+       <div class="type">
+        <select class="form-select" aria-label="Default select example">
+            <option selected><strong>Nationality</strong></option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Three</option>
+        </select>  
+        <select class="form-select" aria-label="Default select example">
+            <option selected><strong>State of Origin</strong></option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Three</option>
+        </select>             
+        <select class="form-select" aria-label="Default select example">
+               <option selected><strong>Ethnic Group</strong></option>
+               <option value="1">One</option>
+               <option value="2">Two</option>
+               <option value="3">Three</option>
+        </select>
+       </div>
+    </div>
+
+    <!-- content 6 -->
+    <div class="content6">
+        <div class="type">
+            <label><input class="datepicker" data-date-format="mm/dd/yyyy" type="date"></label>            
+            <select class="form-select" aria-label="Default select example">
+                <option selected><strong>Company Name</strong></option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+            <label><input class="datepicker" data-date-format="mm/dd/yyyy" type="date"></label>
+        </div>
+    </div>
+
+    <!-- content 7 -->
+    <div class="content7">
+        <div class="type">
+            <label><input type="text" value="" Placeholder="Company Name"  class="right"></label>
+            <label><input type="text" value="" placeholder="Designation Post" class="right1"></label>
+        </div>
+    </div>
+
+    <!-- content 8 -->
+    <div class="content8">
+        <div class="type">
+            <label><input type="text" value="" Placeholder="Telephone(Office)"></label>
+            <label><input type="text" value="" placeholder="Telephone No.(Home)"></label>
+        </div>
+    </div>
+
+    <!-- content 9 -->
+    <div class="content9">
+        <div class="type">
+            <label><input type="text" value="" Placeholder="Home Address"></label>
+        </div>
+     </div>
+
+        
+        <!-- <div class="buttonbar2"> -->
+            <!-- <div class="button3"> -->
+                <!-- <button><i class="fa fa-plus" aria-hidden="true"></i>Register Patient</button> -->
+            <!-- </div> -->
+        </div>
+    </body>
+</html>

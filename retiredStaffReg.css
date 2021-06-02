@@ -1,0 +1,475 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+i {
+    padding-right: 7px;
+}
+.sidebar {
+    position: fixed;
+    right:0;
+    width:200px;
+    height: 102%;
+    background: rgb(91, 3, 173);
+}
+.sidebar header {
+    font-size: 22px;
+    color:white;
+    text-align:center;
+    line-height: 70px;
+    background: rgb(91, 3, 173);
+    border-bottom: 2px solid white;
+    height: 4.3em;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width:100%;
+    line-height: 60px;
+    font-size: 15px;
+    color:white;
+    margin-left: 25px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.sidebar .left {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.sidebar .left i {
+    padding-right: 15px;
+}
+.sidebar ul li a:hover {
+    transform: scale(0.95);
+    Z-index: 0.95; 
+}
+.sidebar ul li a:active {
+    color: white;
+}
+nav {
+    height: 100%;
+    width: 100%;
+    margin-top: -8px;
+    background: transparent;
+}
+
+label.logo {
+    color: black;
+    font-size: 30px;
+    padding: 0 60px;
+    font-weight: bold;
+    margin: 30px 5px 40px 30px;
+    float: left;
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+label.logo1 img {
+    width: 50px;
+    margin-left:30px;
+    margin-top: 30px;
+}
+.buttonbar {
+    height: 87px;
+    width: 85.5%;
+    margin-top: -8px;
+    margin-top: 30px;
+    background: transparent;
+}
+
+.button1{
+    float:left;
+    padding-left: 20px;
+    margin: 20px;
+    letter-spacing: 3px;
+}
+/* .button2{ */
+    /* float:right; */
+    /* padding-right: 20px; */
+    /* margin: 20px; */
+    /* letter-spacing: 3px; */
+/* } */
+.button1 button {
+    color: rgb(141, 0, 235);
+    padding: 10px;
+    border-color: rgb(141, 0, 235);
+    cursor: pointer;
+}
+.button1 button {
+    color: rgb(141, 0, 235);
+    padding: 5px;
+    border-color: rgb(141, 0, 235);
+    cursor: pointer;
+}
+.content {
+    background: transparent;
+    height: 3vh;
+    width: 85.5%;
+}
+.content p {
+    color: rgb(141, 0, 235);
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 18px; 
+}
+.content1 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+}
+.content1 img {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border: 1px solid red;
+    border-radius: 50%;
+    border-color: rgb(224, 224, 224);
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.content1 .type {
+    padding-left: 40px;
+    letter-spacing: 40px;
+}
+.content1 .type label input {
+    width: 250px;
+    height: 35px;
+    margin-top: 45px;
+    margin-left: 90px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+::placeholder{
+    padding-left: 10px;
+    /* font-weight: bold; */
+    color: rgb(22, 22, 22);
+}
+.content1 .type select {
+    width: 250px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    color: rgb(37, 37, 37);
+    padding-left: 10px;
+}
+
+.content2 {
+    background: transparent;
+    height: 20vh;
+    width: 85.5%;
+}
+.content2 .type {
+    padding-left: 30px;
+    letter-spacing: 40px;
+}
+.content2 .type select {
+    width: 250px;
+    height: 30px;
+    margin-top: 90px;
+    margin-left: 95px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    color: rgb(37, 37, 37);
+    padding-left: 10px;
+}
+
+.content3 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+}
+
+.content3 .type {
+    letter-spacing: 40px;
+    
+}
+.content3 .type label input {
+    width: 250px;
+    height: 35px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+::placeholder{
+    padding-left: 10px;
+    /* font-weight: bold; */
+}
+.content3 .type select {
+    width: 250px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    padding-left: 10px;
+}
+
+.content4 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+    padding-left: -20px;
+}
+
+.content4 .type {
+    padding-left: -40px;
+    letter-spacing: 40px;
+}
+.content4 .type label input {
+    width: 250px;
+    height: 35px;
+    margin-top: 45px;
+    margin-left: 90px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+
+.content4 .type .datepicker {
+    margin-left: 70px;
+}
+::placeholder{
+    padding-left: 10px;
+    /* font-weight: bold; */
+}
+.content4 .type select {
+    width: 250px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    padding-left: 10px;
+}
+
+.content5 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+}
+
+
+.content5 .type {
+    letter-spacing: 40px;
+}
+
+.content6 .type .datepicker {
+    margin-left: 30px;
+}
+
+.content5 .type label input {
+    width: 250px;
+    height: 35px;
+    margin-top: 45px;
+    margin-left: 90px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+::placeholder{
+    padding-left: 10px;
+    /* font-weight: bold; */
+}
+.content5 .type select {
+    width: 250px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    padding-left: 10px;
+}
+
+.content6 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+}
+
+
+.content6 .type {
+    padding-left: 40px;
+    letter-spacing: 40px;
+}
+.content6 .type label input {
+    width: 250px;
+    height: 35px;
+    margin-top: 45px;
+    margin-left: 90px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+::placeholder{
+    padding-left: 10px;
+    /* font-weight: bold; */
+}
+.content6 .type select {
+    width: 250px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    padding-left: 10px;
+}
+
+.content7 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+}
+
+
+.content7 .type {
+    letter-spacing: 10px;
+}
+.content7 .type label input .right {
+    width: 500px;
+    height: 35px;
+    margin-top: 45px;
+    margin-left: 70px;
+    margin-right: -10px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+
+.content7 .type label input .right1 {
+    width: 210px;
+}
+
+::placeholder{
+    padding-left: 10px;
+    /* font-weight: bold; */
+}
+
+.content8 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+}
+
+
+.content8 .type {
+    letter-spacing: 40px;
+}
+.content8 .type label input {
+    width: 250px;
+    height: 35px;
+    margin-top: 45px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+::placeholder{
+    padding-left: 10px;
+    /* font-weight: bold; */
+}
+.content8 .type select {
+    width: 250px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    padding-left: 10px;
+}
+
+.content9 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+}
+
+
+.content9 .type {
+    letter-spacing: 40px;
+}
+.content9 .type label input {
+    width: 610px;
+    height: 35px;
+    margin-top: 45px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+::placeholder{
+    padding-left: 10px;
+    /* font-weight: bold; */
+}
+.content9 .type select {
+    width: 250px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    padding-left: 10px;
+}
+.buttonbar2 {
+    background: transparent;
+    height: 87px;
+    width: 85.5%;
+    margin-top: 100px;
+
+}
+
+.button3{
+    float:right;
+    padding-right: 20px;
+    margin: 20px;
+}
+.button3 button {
+    color: white;
+    padding: 6px;
+    border-color: rgb(141, 0, 235);
+    cursor: pointer;
+    background: rgb(141, 0, 235);
+}

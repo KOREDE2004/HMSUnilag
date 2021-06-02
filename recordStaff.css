@@ -1,0 +1,142 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+i {
+    padding-right: 7px;
+}
+.sidebar {
+    position: fixed;
+    right:0;
+    width:200px;
+    height: 102%;
+    background: rgb(91, 3, 173);
+}
+.sidebar header {
+    font-size: 22px;
+    color:white;
+    text-align:center;
+    line-height: 70px;
+    background: rgb(91, 3, 173);
+    border-bottom: 2px solid white;
+    height: 4.3em;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width:100%;
+    line-height: 60px;
+    font-size: 15px;
+    color:white;
+    margin-left: 25px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.sidebar .left {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.sidebar .left i {
+    padding-right: 15px;
+}
+.sidebar ul li a:hover {
+    transform: scale(0.95);
+    Z-index: 0.95; 
+}
+.sidebar ul li a:active {
+    color: white;
+}
+nav {
+    height: 100%;
+    width: 100%;
+    margin-top: -8px;
+}
+
+label.logo {
+    color: black;
+    font-size: 30px;
+    padding: 0 60px;
+    font-weight: bold;
+    margin: 30px 5px 40px 30px;
+    float: left;
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+label.logo1 img {
+    width: 50px;
+    margin-left:30px;
+    margin-top: 30px;
+}
+.buttonbar {
+    height: 87px;
+    width: 85.5%;
+    margin-top: -8px;
+    margin-top: 30px;
+    background: transparent;
+}
+
+.button1{
+    float:right;
+    padding-right: 20px;
+    margin: 20px;
+    letter-spacing: 3px;
+}
+/* .button2{ */
+    /* float:right; */
+    /* padding-right: 20px; */
+    /* margin: 20px; */
+    /* letter-spacing: 3px; */
+/* } */
+.button1 button {
+    color: rgb(141, 0, 235);
+    padding: 10px;
+    border-color: rgb(141, 0, 235);
+    cursor: pointer;
+}
+.button1 button {
+    color: rgb(141, 0, 235);
+    padding: 5px;
+    border-color: rgb(141, 0, 235);
+    cursor: pointer;
+}
+.content {
+    background: transparent;
+    height: 3vh;
+    width: 85.5%;
+}
+.content p {
+    color: rgb(141, 0, 235);
+    font-size: 17px; 
+}
+.content {
+    background: rgba(0, 0, 0, 0);
+    height: 20vh;
+    width: 85.5%;
+    margin-top: 1rem;
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+.td {
+    color: rgb(141, 0, 235);
+    font-weight: bold;
+}
+thead tr th {
+margin-left: 30px;
+}
