@@ -33,9 +33,11 @@ i {
     line-height: 60px;
     font-size: 15px;
     color:white;
-    margin-left: 25px;
-    box-sizing: border-box;
+    margin-left: 20px;
+    padding-right: 20px;
+    margin-top: 2px;
     padding-top: 20px;
+    border: none;
 }
 .sidebar .left {
     margin-top: 80px;
@@ -45,11 +47,10 @@ i {
     padding-right: 15px;
 }
 .sidebar ul li a:hover {
-    transform: scale(0.95);
-    Z-index: 0.95; 
+    transform: translateY(-10px);
 }
 .sidebar ul li a:active {
-    color: white;
+    color: red;
 }
 nav {
     height: 100%;
@@ -125,7 +126,7 @@ label.logo1 img {
     position: absolute;
     height: 70px;
     width: 70px;
-    border: 1px solid red;
+    border: 1px solid rgb(224, 224, 224);
     border-radius: 50%;
     border-color: rgb(224, 224, 224);
     margin-top: 20px;
@@ -169,14 +170,13 @@ label.logo1 img {
     width: 85.5%;
 }
 .content2 .type {
-    padding-left: 30px;
-    letter-spacing: 40px;
+    padding-left: 10px;
 }
 .content2 .type select {
     width: 250px;
     height: 30px;
     margin-top: 90px;
-    margin-left: 95px;
+    margin-left: 40px;
     box-sizing: border-box;
     background: rgb(248, 248, 248);
     box-shadow: 3px 3px 3px rgb(192, 192, 192);
@@ -189,14 +189,14 @@ label.logo1 img {
     height: 10vh;
     width: 85.5%;
     background: transparent;
+    padding-left: 50px;
+    margin-top: 20px;
 }
-
 .content3 .type {
-    letter-spacing: 40px;
-    
+letter-spacing: 70px;
 }
 .content3 .type label input {
-    width: 250px;
+    width: 300px;
     height: 35px;
     margin-top: 45px;
     box-sizing: border-box;
@@ -209,10 +209,9 @@ label.logo1 img {
     /* font-weight: bold; */
 }
 .content3 .type select {
-    width: 250px;
+    width: 300px;
     height: 30px;
     margin-top: 45px;
-    margin-left: 70px;
     box-sizing: border-box;
     background: rgb(248, 248, 248);
     box-shadow: 3px 3px 3px rgb(192, 192, 192);
@@ -226,36 +225,31 @@ label.logo1 img {
     height: 10vh;
     width: 85.5%;
     background: transparent;
-    padding-left: -20px;
+    padding-left: 50px;
+    margin-top: 20px;
 }
 
 .content4 .type {
-    padding-left: -40px;
-    letter-spacing: 40px;
+    letter-spacing: 70px;
 }
 .content4 .type label input {
-    width: 250px;
+    width: 300px;
     height: 35px;
     margin-top: 45px;
-    margin-left: 90px;
     box-sizing: border-box;
     background: rgb(248, 248, 248);
     box-shadow: 3px 3px 3px rgb(192, 192, 192);
     border: none;
 }
 
-.content4 .type .datepicker {
-    margin-left: 70px;
-}
 ::placeholder{
     padding-left: 10px;
     /* font-weight: bold; */
 }
 .content4 .type select {
-    width: 250px;
+    width: 300px;
     height: 30px;
     margin-top: 45px;
-    margin-left: 70px;
     box-sizing: border-box;
     background: rgb(248, 248, 248);
     box-shadow: 3px 3px 3px rgb(192, 192, 192);
@@ -269,36 +263,24 @@ label.logo1 img {
     height: 10vh;
     width: 85.5%;
     background: transparent;
+    padding-left: 50px;
+    margin-top: 20px;
 }
 
 
 .content5 .type {
-    letter-spacing: 40px;
+    letter-spacing: 70px;
 }
 
-.content6 .type .datepicker {
-    margin-left: 30px;
-}
 
-.content5 .type label input {
-    width: 250px;
-    height: 35px;
-    margin-top: 45px;
-    margin-left: 90px;
-    box-sizing: border-box;
-    background: rgb(248, 248, 248);
-    box-shadow: 3px 3px 3px rgb(192, 192, 192);
-    border: none;
-}
 ::placeholder{
     padding-left: 10px;
     /* font-weight: bold; */
 }
 .content5 .type select {
-    width: 250px;
+    width: 300px;
     height: 30px;
     margin-top: 45px;
-    margin-left: 70px;
     box-sizing: border-box;
     background: rgb(248, 248, 248);
     box-shadow: 3px 3px 3px rgb(192, 192, 192);
@@ -312,65 +294,73 @@ label.logo1 img {
     height: 10vh;
     width: 85.5%;
     background: transparent;
+    padding-left: 50px;
+    margin-top: 20px;
 }
 
 
 .content6 .type {
-    padding-left: 40px;
-    letter-spacing: 40px;
+    letter-spacing: 70px;
 }
-.content6 .type label input {
-    width: 250px;
-    height: 35px;
-    margin-top: 45px;
-    margin-left: 90px;
-    box-sizing: border-box;
-    background: rgb(248, 248, 248);
-    box-shadow: 3px 3px 3px rgb(192, 192, 192);
-    border: none;
-}
+
 ::placeholder{
     padding-left: 10px;
     /* font-weight: bold; */
 }
+.content6 .type .datepicker {
+    width: 300px;
+    height: 30px;
+    margin-top: 45px;;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+}
 .content6 .type select {
-    width: 250px;
+    width: 300px;
     height: 30px;
     margin-top: 45px;
-    margin-left: 70px;
     box-sizing: border-box;
     background: rgb(248, 248, 248);
     box-shadow: 3px 3px 3px rgb(192, 192, 192);
     border: none;
     font-weight: bold;
     color: rgb(107, 107, 107);
-    padding-left: 10px;
 }
-
 .content7 {
     height: 10vh;
     width: 85.5%;
     background: transparent;
+    margin-top: 20px;
+    padding-left: 50px;
 }
-
-
 .content7 .type {
-    letter-spacing: 10px;
+    letter-spacing: 70px;
+    display: flex;
 }
-.content7 .type label input .right {
-    width: 500px;
+.content7 .type .right label input {
+    width: 675px;
     height: 35px;
     margin-top: 45px;
-    margin-left: 70px;
-    margin-right: -10px;
     box-sizing: border-box;
     background: rgb(248, 248, 248);
     box-shadow: 3px 3px 3px rgb(192, 192, 192);
     border: none;
 }
-
-.content7 .type label input .right1 {
-    width: 210px;
+.content7 .type .right1 label input {
+    width: 300px;
+    height: 35px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    margin-left: 70px; 
+}
+::placeholder{
+    padding-left: 10px;
+    /* font-weight: bold; */
 }
 
 ::placeholder{
@@ -382,17 +372,18 @@ label.logo1 img {
     height: 10vh;
     width: 85.5%;
     background: transparent;
+    padding-left: 50px;
+    margin-top: 20px;
 }
 
 
 .content8 .type {
-    letter-spacing: 40px;
+    letter-spacing: 70px;
 }
 .content8 .type label input {
-    width: 250px;
+    width: 300px;
     height: 35px;
     margin-top: 45px;
-    margin-left: 70px;
     box-sizing: border-box;
     background: rgb(248, 248, 248);
     box-shadow: 3px 3px 3px rgb(192, 192, 192);
@@ -402,24 +393,13 @@ label.logo1 img {
     padding-left: 10px;
     /* font-weight: bold; */
 }
-.content8 .type select {
-    width: 250px;
-    height: 30px;
-    margin-top: 45px;
-    margin-left: 20px;
-    box-sizing: border-box;
-    background: rgb(248, 248, 248);
-    box-shadow: 3px 3px 3px rgb(192, 192, 192);
-    border: none;
-    font-weight: bold;
-    color: rgb(107, 107, 107);
-    padding-left: 10px;
-}
 
 .content9 {
     height: 10vh;
     width: 85.5%;
     background: transparent;
+    margin-top: 20px;
+    padding-left: 50px; 
 }
 
 
@@ -427,10 +407,9 @@ label.logo1 img {
     letter-spacing: 40px;
 }
 .content9 .type label input {
-    width: 610px;
+    width: 670px;
     height: 35px;
     margin-top: 45px;
-    margin-left: 70px;
     box-sizing: border-box;
     background: rgb(248, 248, 248);
     box-shadow: 3px 3px 3px rgb(192, 192, 192);
@@ -440,11 +419,95 @@ label.logo1 img {
     padding-left: 10px;
     /* font-weight: bold; */
 }
-.content9 .type select {
+
+.kin {
+    background: transparent;
+    height: 1vh;
+    width: 85.5%;
+    margin-top: 60px;
+}
+.kin p {
+    color: rgb(141, 0, 235);
+    padding-left: 40px;
+    font-weight: 600;
+    font-size: 18px; 
+}
+.content10 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.content10 .type {
+    letter-spacing: 150px;
+    display: flex;
+}
+.content10 .type .right label input {
+    width: 650px;
+    height: 35px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+.content10 .type .right1 label input {
+    width: 250px;
+    height: 35px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+    margin-right: 160px; 
+}
+
+.content11 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+
+.content11 .type {
+    letter-spacing:150px;
+}
+.content11 .type label input {
+    width: 250px;
+    height: 35px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+
+.content12 {
+    height: 10vh;
+    width: 85.5%;
+    background: transparent;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.content12 .type {
+letter-spacing: 150px;
+}
+.content12 .type label input {
+    width: 250px;
+    height: 35px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    background: rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgb(192, 192, 192);
+    border: none;
+}
+.content12 .type select {
     width: 250px;
     height: 30px;
     margin-top: 45px;
-    margin-left: 70px;
     box-sizing: border-box;
     background: rgb(248, 248, 248);
     box-shadow: 3px 3px 3px rgb(192, 192, 192);
@@ -454,17 +517,31 @@ label.logo1 img {
     padding-left: 10px;
 }
 .buttonbar2 {
-    background: transparent;
     height: 87px;
     width: 85.5%;
-    margin-top: 100px;
-
+    margin-top: 10em;
+    background: transparent;
 }
 
 .button3{
     float:right;
     padding-right: 20px;
     margin: 20px;
+    letter-spacing: 3px;
+} 
+.button3 button:hover {
+    background-color: rgb(98, 0, 255);
+    transform: translateY(-10px);
+}
+.button4{
+    float:right;
+    padding-right: 20px;
+    margin: 20px;
+    letter-spacing: 3px;
+}
+.button4 button:hover {
+    background-color: rgba(98, 0, 255, 0.274);
+    transform: translateY(-10px);
 }
 .button3 button {
     color: white;
@@ -472,4 +549,10 @@ label.logo1 img {
     border-color: rgb(141, 0, 235);
     cursor: pointer;
     background: rgb(141, 0, 235);
+}
+.button4 button {
+    color: rgb(141, 0, 235);
+    padding: 6px;
+    border-color: rgb(141, 0, 235);
+    cursor: pointer;
 }
